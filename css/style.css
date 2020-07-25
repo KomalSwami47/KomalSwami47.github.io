@@ -262,8 +262,13 @@ footer p{
 	color: var(--red);
 	margin-top:3rem;
 }
+footer.footer-socials a{
+	text-align:center;
+}
+
 .fa-customize{
 	color:var(--primary);
+	text-align:center;
 }
 
 @media (max-width:600px){
@@ -323,5 +328,16 @@ footer p{
 	background:none;
 	cursor:pointer;
 }
-
+.top a{
+	color: var(--pure);
+	text-align:right;
+	text-decoration: none;
+	margin-right:2rem;
+	text-transform:uppercase;
+	transition:all .3s ease;
+	font-family:'Red Rose',cursive;
+}
+footer .top a:hover{
+	color: var(--primary);
+}
 
